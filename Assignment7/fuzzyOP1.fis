@@ -1,0 +1,58 @@
+[System]
+Name='fuzzyOP1'
+Type='mamdani'
+Version=2.0
+NumInputs=3
+NumOutputs=1
+NumRules=12
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='GRESccore'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.416666666666667 0 0.416666666666667]
+MF2='average':'trimf',[0.0833333333333333 0.5 0.916666666666667]
+MF3='best':'trimf',[0.583333333333333 1 1.41666666666667]
+
+[Input2]
+Name='RecomendationLetter'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.416666666666667 0 0.416666666666667]
+MF2='average':'trimf',[0.0833333333333333 0.5 0.916666666666667]
+MF3='best':'trimf',[0.583333333333333 1 1.41666666666667]
+
+[Input3]
+Name='CGPA'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.416666666666667 0 0.416666666666667]
+MF2='average':'trimf',[0.0833333333333333 0.5 0.916666666666667]
+MF3='best':'trimf',[0.583333333333333 1 1.41666666666667]
+
+[Output1]
+Name='MIT'
+Range=[0 1]
+NumMFs=3
+MF1='bad':'trimf',[-0.416666666666667 0 0.416666666666667]
+MF2='average':'trimf',[0.0833333333333333 0.5 0.916666666666667]
+MF3='best':'trimf',[0.583333333333333 1 1.41666666666667]
+
+[Rules]
+1 1 1, 1 (1) : 1
+1 2 1, 1 (1) : 1
+1 3 1, 2 (1) : 1
+1 3 1, 1 (1) : 1
+1 1 2, 1 (1) : 1
+3 3 3, 3 (1) : 1
+3 3 2, 3 (1) : 1
+3 3 1, 2 (1) : 1
+3 2 3, 2 (1) : 1
+3 2 2, 2 (1) : 1
+3 2 1, 2 (1) : 1
+3 1 3, 3 (1) : 1

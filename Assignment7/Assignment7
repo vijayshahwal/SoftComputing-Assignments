@@ -1,0 +1,15 @@
+Assignment # 7 - Fuzzy Logic
+
+Design a Fuzzy membership function in MATLAB to predict the possibility of getting admission to a good University in the US based on three Inputs, CGPA, recommendation letter, and GRE score. 
+
+One can make it in python also, but MATLAB code will be appreciated.
+
+For your reference, go through these videos lectures, and they're compulsory for all of you.
+
+
+https://youtube.com/playlist?list=PLFWlHcAOSQboXbz_YIQ22wpmu9J7zSDtF
+
+
+Please write file name as rollnumber.py or rollnumber.otherextension(.csv, .pdf, etc).
+
+Last Date - 18th April 2022, 11. 59 PM.
