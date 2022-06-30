@@ -1,0 +1,30 @@
+In the Probability
+and Satistics course (PBS-432), you perhaphs have implemented the concept of
+Box-Muller transformation. If not, please learn about it now, because it is
+very useful and has wide range of applications. In the machine learning
+Gaussian distribution/the Normal Distribution is the workhorse and being able
+to draw samples from this distribution lies at the heart of many machine
+learning algorithms. Box-Muller transform enables us to transform any 
+i.i.d (independently identical distribution), say  uniform distribution
+U(0,1) to i.i.d normal distribution N(0,1).
+
+
+You need to implement
+the Box-Muller Algorithm and show that the generated samples are indeed
+normally distributed by generating a plot in Python. May use and study the
+following hints.
+
+
+
+Hints:
+
+https://medium.com/mti-technology/how-to-generate-gaussian-samples-3951f2203ab0
+
+
+
+Date of float:
+19-01-2022.
+
+
+Date of submission:
+26-01-2022.
